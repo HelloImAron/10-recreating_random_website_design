@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+p {
+	font-family: "poppins";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "outfit";
+}
+
+/* TODO */
+.btn-blue-filled {
+	background-color: rgb(94, 168, 228);
+	color: #fff;
+}
+
+.btn-white-filled {
+	background-color: #fff;
+	color: #000;
+}
+.btn-blue-empty {
+	border: 2px solid rgb(94, 168, 228);
+	color: rgb(94, 168, 228);
+}
